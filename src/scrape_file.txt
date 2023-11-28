@@ -1,0 +1,8 @@
+('Pompeia (wife of Caesar)', 'born-died', None, ' (67 62 BC; divorced)')
+('Calpurnia (wife of Caesar)', 'born-died', 'c. 76 BC', '(59 44 BC; his death)')
+('Cleopatra', 'born-died', 'Early 69 BC or Late 70 BC', '10 August 30 BC')
+('Julia (daughter of Caesar)', 'born-died', None, 'August 54 BC')
+('Caesarion', 'born-died', '23 June 47 BC', 'late August 30 BC (aged 17)')
+('Augustus', 'born-died', '23 September 63 BC', '19 August AD 14 (aged 75)')
+('Gaius Julius Caesar (governor of Asia)', 'born-died', 'c. 140 BC', '85 BC (aged 54-55)')
+('Aurelia (mother of Caesar)', 'born-died', 'c. 120 BC', 'July 31, 54 BC (aged 65-66)')

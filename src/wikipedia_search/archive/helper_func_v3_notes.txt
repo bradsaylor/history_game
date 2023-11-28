@@ -1,0 +1,49 @@
+Need to find a year
+find a month and a day if they are there
+
+how to do this?:
+
+first number is either a year or day
+
+month is first match to {months}
+
+
+*** stop evaluating at 'or' 
+*** don't consider anything in '[]'
+*** don't consider anything in '()'
+*** check for text 'AD' or 'BC' if year is found
+
+
+pseudo-code
+
+For all cells in [born or died] table row:
+    how many number matches?:
+        if == 1:
+            is there a match with {months}?:
+                if yes:
+                    assign number to days 
+                    assign word to months
+                if no:
+                    assign number to year
+                    check for AD/BC and assign
+                    
+        elif > 1:
+            assign first to year
+            check for AD/BC and assign
+            assign second number to day
+            is there a match with {months}?:
+                if yes:
+                    assign month
+                if no:
+                    return an error
+       
+        else:
+            is there a match with {months}?:
+                yes:
+                    assign match to month
+                no:
+                    pass
+
+
+*** assert that day value is in range [1, 31]
+*** assert that if day is given month is also given

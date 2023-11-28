@@ -1,0 +1,17 @@
+possibilities to match:
+
+1. day month year
+    - matches: '[\d]+ [a-zA-z]+ [\d]+'
+2. day month
+    - matches: '[\d]+ [a-zA-z]+'
+3. year
+    - matches '[\d]+'
+
+
+algorithm
+
+1. check 1 if matches then done
+2. check 2 if matches then store value
+   if not then continue
+3. check 3 if matches then done
+
